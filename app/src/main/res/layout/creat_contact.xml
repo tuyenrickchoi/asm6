@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/btn_close"
+            android:layout_width="18dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/close_svgrepo_com"
+            android:layout_marginLeft="20dp"
+            android:textAlignment="center"
+            ></ImageView>
+        
+        <TextView
+            android:layout_width="285dp"
+            android:layout_height="match_parent"
+            android:text="Create new contact"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textAlignment="textStart"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="Save"
+            android:fontFamily="sans-serif-medium"
+            ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:background="@color/xanhnhat"
+        >
+
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/personwhite_svgrepo_com"
+            >
+        </ImageView>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="50dp"
+            android:src="@drawable/camera_svgrepo_com"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="1dp"
+            ></ImageView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+
+        >
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/smartphone_material_svgrepo_com"
+            android:layout_marginLeft="20dp"
+            ></ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Saving to"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="bottom"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Device"
+                android:textColor="@color/gray"
+                ></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        >
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/person_svgrepo_com"
+            android:layout_marginLeft="20dp"
+            ></ImageView>
+
+
+        <EditText
+            android:id="@+id/edt_fname"
+            android:layout_width="285dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:text="First name"
+            android:textColor="@color/xamnhat"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="17dp"
+            ></EditText>
+
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/down_arrow_5_svgrepo_com"
+            ></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        >
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="20dp"
+            ></ImageView>
+
+
+        <EditText
+            android:id="@+id/edt_lname"
+            android:layout_width="285dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:text="Last name"
+            android:textColor="@color/xamnhat"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="17dp"
+            ></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        >
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/baseline_call_24"
+            android:layout_marginLeft="20dp"
+            ></ImageView>
+
+
+        <EditText
+            android:id="@+id/edt_phone"
+            android:layout_width="285dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:text="Phone"
+            android:textColor="@color/xamnhat"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="17dp"
+            ></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        >
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="20dp"
+            ></ImageView>
+
+
+        <EditText
+            android:id="@+id/edt_mobile"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:text="mobile"
+            android:textColor="@color/xamnhat"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="17dp"
+            ></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        >
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/email_svgrepo_com"
+            android:layout_marginLeft="20dp"
+            ></ImageView>
+
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="285dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:text="Email"
+            android:textColor="@color/xamnhat"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="17dp"
+            ></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        >
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="20dp"
+            ></ImageView>
+
+
+        <EditText
+            android:id="@+id/edt_home"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:text="Home"
+            android:textColor="@color/xamnhat"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="17dp"
+            ></EditText>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:text="More fields"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/xanhsang"
+        android:fontFamily="sans-serif-medium"
+        ></TextView>
+    
+    
+
+</LinearLayout>
